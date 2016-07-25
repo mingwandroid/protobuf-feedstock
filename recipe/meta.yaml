@@ -25,6 +25,7 @@ requirements:
         - automake           # [unix]
         - libtool            # [unix]
         - pkg-config         # [unix]
+        - gcc                # [linux]
         - zlib
         - python
         - six
@@ -32,6 +33,7 @@ requirements:
         - unittest2          # [py26]
 
     run:
+        - libgcc             # [linux]
         - zlib
         - python
         - six
